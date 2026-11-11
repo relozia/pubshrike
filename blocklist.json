@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "updated": "2026-11-11",
+  "default": { "block": [] },
+  "servers": [
+    {
+      "name": "FunTime",
+      "match": ["funtime.su"],
+      "source": "https://forum.funtime.su/modifications",
+      "block": ["cooldown_hud", "auto_gg", "autowaypoint"]
+    },
+    {
+      "name": "PVPHQ",
+      "match": ["pvphq.com", "flowpvp.gg"],
+      "source": "https://pvphq.com/rules",
+      "block": ["hitboxes", "damage_numbers", "heal_highlight", "modern_keybinds", "auto_gg", "autowaypoint"],
+      "block_settings": { "totem_tracker": { "Others' Pops": false } }
+    },
+    {
+      "name": "Hoplite",
+      "match": ["hoplite.gg"],
+      "source": "https://www.hoplite.gg/rules",
+      "block": ["freelook", "inventory_hud", "hitboxes", "damage_numbers", "compass", "auto_gg", "autowaypoint"],
+      "block_settings": { "totem_tracker": { "Others' Pops": false } }
+    },
+    {
+      "name": "DonutSMP",
+      "match": ["donutsmp.net"],
+      "source": "server rules, no public mods page",
+      "block": ["compass", "shulker_preview", "inventory_hud", "damage_numbers", "auto_gg", "autowaypoint"],
+      "block_settings": { "totem_tracker": { "Others' Pops": false } }
+    },
+    {
+      "name": "MCPVP",
+      "match": ["mcpvp.com"],
+      "source": "https://www.mcpvp.com/allowed-mods",
+      "block": ["heal_highlight", "compass", "auto_gg", "autowaypoint"]
+    },
+    {
+      "name": "MCPVP Club",
+      "match": ["mcpvp.club"],
+      "source": "https://mcpvp.club/rules",
+      "block": ["freelook", "modern_keybinds", "auto_gg", "autowaypoint"]
+    },
+    {
+      "name": "PvP Legacy",
+      "match": ["pvplegacy.net"],
+      "source": "https://pvplegacy.net/mods",
+      "block": ["auto_gg", "autowaypoint"]
+    },
+    {
+      "name": "ManaCube",
+      "match": ["manacube.com", "lifesteal.net"],
+      "source": "https://manacube.com/rules/",
+      "block": ["auto_gg", "autowaypoint"]
+    },
+    {
+      "name": "PikaNetwork",
+      "match": ["pika-network.net"],
+      "source": "https://support.pika-network.net/articles/allowed-and-disallowed-modifications",
+      "block": []
+    }
+  ]
+}
